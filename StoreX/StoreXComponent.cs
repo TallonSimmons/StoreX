@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Components;
+using System.Threading.Tasks;
 
 namespace StoreX
 {
@@ -15,6 +16,11 @@ namespace StoreX
         {
             Store.OnStoreMutated += StateHasChanged;
             base.OnInitialized();
+        }
+
+        public async Task CommitStoreXMutation(StoreXMutation mutation)
+        {
+            await Mediator.Send(mutation);
         }
     }
 }
