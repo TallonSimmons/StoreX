@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Simple_Shop.Web.State
+namespace StoreX
 { 
     public abstract class StoreXStore
     {

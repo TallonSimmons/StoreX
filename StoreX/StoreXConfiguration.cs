@@ -4,7 +4,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace Simple_Shop.Web.State
+namespace StoreX
 {
     public static class StoreXConfiguration
     {
