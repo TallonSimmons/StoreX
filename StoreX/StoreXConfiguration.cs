@@ -13,7 +13,7 @@ namespace StoreX
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
             var storeImplementations = Assembly
-                .GetExecutingAssembly()
+                .GetCallingAssembly()
                 .GetTypes()
                 .Where(x => x.IsClass && !x.IsAbstract && x.IsSubclassOf(typeof(StoreXStore)));
 

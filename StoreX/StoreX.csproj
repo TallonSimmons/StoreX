@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>StoreX</PackageId>
-    <Version>0.0.3</Version>
+    <Version>0.0.5</Version>
     <Authors>Tallon Simmons</Authors>
     <Company>Tallon Simmons</Company>
     <Description>A low boilerplate state management library for Blazor. Built on top of MediatR.</Description>
